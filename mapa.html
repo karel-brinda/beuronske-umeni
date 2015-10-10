@@ -1,0 +1,35 @@
+<?php
+	$tabulka = true;
+
+	require ('_include/php/zaklad.php');
+
+	titulek ('Beuronské umìní');
+
+	menu ('Opatství sv. Gabriela','gabriel-panorama.html');
+	menu ('Sacré Coeur','sacre-coeur.html');
+	menu ('Emauzy','emauzy.html');
+
+	$menu .= '</ul><br /><ul>';
+
+	menu ('Beuronské umìní','beuronske-umeni.html');
+	menu ('Páter Lenz','pater-lenz.html');
+	menu ('Kánon','kanon.html');
+
+	$menu .= '</ul><br /><ul>';
+
+	menu ('Autoøi','autori.html');
+	menu ('Zdroje','zdroje.html');
+
+	zahlavi ();
+?>
+
+<h1>Opatství sv. Gabriela</h1>
+<h2>a dal¹í památky s beuronským umìním</h2>
+<img src="_img/mapy/vsechno.jpg" width="700" />
+<a href="gabriel-panorama.html"><img src="_img/mapy/gabriel.jpg" style="position:relative;top:-380px;left:-170px;border-width:0px" /></a>
+<a href="sacre-coeur.html"><img src="_img/mapy/sacre-coeur.jpg" style="position:relative;top:-217px;left:-240px;border-width:0px" /></a>
+<a href="emauzy.html"><img src="_img/mapy/emauzy.jpg" style="position:relative;top:-72px;left:40px;border-width:0px" /></a>
+
+<?php
+  zapati ();
+?>
